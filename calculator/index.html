@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script type="text/javascript" defer src="./script.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="calculator__output">
+          <div class="calculator__top-output">
+            <span class="calculator__previous-operand" id="previous-operand"></span>
+          </div>
+          <div class="calculator__current-operand" id="current-operand"></div>
+        </div>
+        <div class="calculator__input">
+
+          <div class="calculator__btn-line-group">
+            <button class="calculator__btn" id="all-clear">AC</button>
+            <button class="calculator__btn" id="root" value="√">Root</button>
+            <button class="calculator__btn" id="pow" value="^">Pow</button>
+            <button data-btn-operation class="calculator__btn" value="/">/</button>
+          </div>
+
+          <div class="calculator__btn-line-group">
+            <button data-btn-digit class="calculator__btn" value="1">1</button>
+            <button data-btn-digit class="calculator__btn" value="2">2</button>
+            <button data-btn-digit class="calculator__btn" value="3">3</button>
+            <button data-btn-operation class="calculator__btn" value="*">*</button>
+          </div>
+
+          <div class="calculator__btn-line-group">
+            <button data-btn-digit class="calculator__btn" value="4">4</button>
+            <button data-btn-digit class="calculator__btn" value="5">5</button>
+            <button data-btn-digit class="calculator__btn" value="6">6</button>
+            <button data-btn-operation class="calculator__btn" value="+">+</button>
+          </div>
+
+          <div class="calculator__btn-line-group">
+            <button data-btn-digit class="calculator__btn" value="7">7</button>
+            <button data-btn-digit class="calculator__btn" value="8">8</button>
+            <button data-btn-digit class="calculator__btn" value="9">9</button>
+            <button data-btn-operation class="calculator__btn" value="-">-</button>
+          </div>
+
+          <div class="calculator__btn-line-group">
+            <button class="calculator__btn" id="previous-clear">Del</button>
+            <button data-btn-digit class="calculator__btn" value="0">0</button>
+            <button class="calculator__btn" id="point" value=".">.</button>
+            <button class="calculator__btn" id="sum">=</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
